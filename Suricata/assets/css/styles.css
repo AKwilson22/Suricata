@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* 
 <576px	
@@ -8,8 +9,21 @@
 ≥1200px	xl
 ≥1400px xxl
 */
-
 /* NavBar */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+body *{
+    font-weight: 400;
+}
+.bold-700{
+    font-weight: 700 !important;
+}
+
+
+
+
+
 .bg-body-tertiary{
     background-color: #E83E8C !important;
 }
